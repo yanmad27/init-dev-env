@@ -1,5 +1,7 @@
 sudo apt update   
 
+sudo apt install git-all
+
 sudo apt install curl 
   
 #install chrome
