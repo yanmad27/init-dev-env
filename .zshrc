@@ -112,6 +112,8 @@ ZSH_THEME_GIT_PROMPT_CLEAN=""
 ZSH_THEME_RUBY_PROMPT_PREFIX="%{$fg_bold[red]%}‹"
 ZSH_THEME_RUBY_PROMPT_SUFFIX="›%{$reset_color%}"
 
-PROMPT='%{$fg_bold[red]%{$USER@%}%}%{$fg_bold[green]%}%~%{$reset_color%}$(git_prompt_info) $ '
+#PROMPT='%{$fg_bold[red]%{$USER@%}%}%{$fg_bold[green]%}%~%{$reset_color%}$(git_prompt_info) $ '
 
-RPROMPT='$(ruby_prompt_info)'
+#RPROMPT='$(ruby_prompt_info)'
+
+PROMPT='%{$fg_bold[green]%}%~%{$reset_color%}$(git_prompt_info) $ '
